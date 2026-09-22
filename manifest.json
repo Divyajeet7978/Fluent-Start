@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Fluent Start",
+  "description": "A local-first, privacy-focused start page with bookmarks, widgets, weather and a media player.",
+  "version": "3.1.0",
+  "chrome_url_overrides": {
+    "newtab": "startpage.html"
+  },
+  "permissions": [],
+  "host_permissions": [],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src https:;"
+  }
+}
